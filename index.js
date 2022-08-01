@@ -7,10 +7,7 @@ for(var i = 0; i < drumButtons.length; i++ ){
 
 }
 
-
-// function handleClick(){
-//     alert("I got clicked");
-// }
+// Adding function to play sounds when a drum is clicked 
 
 function playSound () {
     if(this.innerHTML === 'w'){
