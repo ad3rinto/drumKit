@@ -64,8 +64,6 @@ for(var i = 0; i < drumButtons.length; i++ ){
 
 
 
-
-
 //  Function to add animation to pressed keys  
 function animateButton(currentKey){
     var activeKey = document.querySelector("."+ currentKey);
