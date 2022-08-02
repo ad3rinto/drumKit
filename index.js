@@ -57,15 +57,21 @@ for(var i = 0; i < drumButtons.length; i++ ){
         var but = this.innerHTML;
         playSound(but);
         animateButton(but);
+        
     });
     
 }   
-    
-//  Function to add animation to pressed keys  
 
+
+
+
+
+//  Function to add animation to pressed keys  
 function animateButton(currentKey){
     var activeKey = document.querySelector("."+ currentKey);
     activeKey.classList.add("pressed");
+    setTimeout(function(){
+        activeKey.classList.remove("pressed")}, 100);
 
 
 };
